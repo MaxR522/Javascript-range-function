@@ -14,7 +14,7 @@ but in JS, we need to build a function from scratch to do that. so here are the 
 function range(start, stop) {
   let res = [];
   res.unshift(start);
-  for (i = start; i < stop; i++){
+  for (let i = start; i < stop; i++){
     res.push(start += 1);
   }
   return res;
